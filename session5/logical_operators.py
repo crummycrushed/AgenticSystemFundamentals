@@ -87,5 +87,5 @@ if marks < 95:
 completed = False 
 # if user has not completed , print retry
 
-if not completed:
+if not completed:  # completed = False , not completed : True
     print("retry")
