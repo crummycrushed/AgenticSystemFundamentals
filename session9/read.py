@@ -1,5 +1,8 @@
 
 #variable = open -- connection --> file, read mode
+from venv import logger
+
+
 file = open("/Users/priyanshu/Documents/AgenticSystemFundamentals/session9/hello.txt", "r")
 #print(file.read()) #read 
 file.close()
@@ -32,10 +35,11 @@ with open("/Users/priyanshu/Documents/AgenticSystemFundamentals/session9/hello.t
 # read line by line
 with open("/Users/priyanshu/Documents/AgenticSystemFundamentals/session9/hello.txt", "r") as file:
     for line in file:
-        content = line.strip()
+        content = line
         if content == "Shubhendu":
+            print("inside shubhendu loop")
             continue
-        #print(content)
+        print(content)
 
 
 ## readlines() --> readlines stores all lines into a list
