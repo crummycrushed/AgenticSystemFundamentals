@@ -11,3 +11,8 @@ arr_2 = np.array([1, 2, 3, 4, 5])
 # print(reshaped_2)
 
 print(len(arr))
+
+
+
+total = np.sum(arr_2)
+print(total)
