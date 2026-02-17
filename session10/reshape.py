@@ -7,5 +7,7 @@ print(reshaped)
 
 
 arr_2 = np.array([1, 2, 3, 4, 5])
-reshaped_2 = arr_2.reshape(2, 3)
-print(reshaped_2)
+#reshaped_2 = arr_2.reshape(2, 3)
+# print(reshaped_2)
+
+print(len(arr))
