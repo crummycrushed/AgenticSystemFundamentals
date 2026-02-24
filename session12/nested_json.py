@@ -25,9 +25,13 @@ print(name)
 
 
 roles = parsed_dict["user"]["profile"]["roles"]
+print(type(roles))
 for i in roles:
     print(i)
 
+
+val = parsed_dict.get("user").get("profile").get("abc")
+print(val)
 
 #roles[0], roles[1]
 
