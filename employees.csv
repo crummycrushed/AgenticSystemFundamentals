@@ -1,0 +1,9 @@
+EmployeeID,Name,Department,Age,Experience,Salary,PerformanceScore,Remote,JoinYear
+101,Alice,AI,28,3,70000,88,True,2021
+102,Bob,Backend,35,8,120000,92,False,2016
+103,Charlie,AI,30,5,95000,85,True,2019
+104,David,Frontend,25,2,60000,78,False,2022
+105,Eva,AI,40,12,150000,95,True,2013
+106,Frank,Backend,29,4,80000,82,False,2020
+107,Grace,Frontend,31,6,90000,89,True,2018
+108,Hannah,AI,27,3,72000,91,True,2021
