@@ -16,6 +16,6 @@ z = df.sort_values(["Salary", "PerformanceScore"], ascending=[True, False])
 #print(z)
 
 
-x = df.sort_index()
+x = df.sort_index(ascending=False)
 print(x)
 
