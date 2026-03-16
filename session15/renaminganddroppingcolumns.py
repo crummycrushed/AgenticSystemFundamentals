@@ -1,4 +1,4 @@
-mport pandas as pd # noqa: F401
+import pandas as pd # noqa: F401
 
 
 df = pd.read_csv("sales_data.csv")
