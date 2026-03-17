@@ -10,8 +10,10 @@ params = {
 response = requests.get("https://api.github.com/search/repositories", params=params)
 
 data = response.json()
-items = data["items"]
 
-for i in items:
-    print(i["full_name"])
+if response.status_code == 200:
+    items = data["items"]
+
+    for i in items:
+        print(i["full_name"])
 
