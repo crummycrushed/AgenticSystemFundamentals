@@ -1,5 +1,5 @@
 import requests
-
+import json
 
 # GET request is used to fetch information from the server without modifying data
 response = requests.get("https://api.github.com")
